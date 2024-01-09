@@ -1,0 +1,51 @@
+.listItem{
+    list-style-type: none;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(127, 127, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.line{
+    display: flex;
+    list-style-type: none;
+    text-decoration: line-through;
+}
+
+
+.button{
+    background-image: url(./png/closeIcon.png);
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+
+.add_button{
+    transition: 0.5s;
+    width: 60px;
+    height: 20px;
+    border: 2px solid rgb(92, 92, 226);
+    color: rgb(92, 92, 226);
+    border-radius: 10px;
+}
+
+.add_button:hover{
+    color: white;
+    background-color: rgb(92, 92, 226);
+    cursor: pointer;
+}
+
+.box{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+}
+/* className={classNames(styles.item, {
+    [styles.line]: !myChecked,
+  })} */
